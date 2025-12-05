@@ -16,6 +16,10 @@ import sixthLogo from "./assets/images/sixthLogo.png";
 
 import rightArrow from "./assets/images/rightArrow.svg";
 
+import communityOne from "./assets/images/communityOne.png";
+import communityTwo from "./assets/images/communityTwo.png";
+import communityThree from "./assets/images/communityThree.png";
+
 function Achievements() {
   return (
     <main className="flex justify-center flex-col gap-12">
@@ -171,6 +175,71 @@ function Achievements() {
               <a className="flex justify-center items-center" href="#">
                 <img className="py-2 px-[4.5px]" src={rightArrow} alt="" />
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-2">
+          <h2 className="text-[#4D4D4D] text-[36px] font-semibold">
+            Caring is the new marketing
+          </h2>
+          <p className="text-[#717171] text-center w-[628px]">
+            The Nexcent blog is the best place to read about the latest
+            membership insights, trends and more. See who's joining the
+            community, read about how our community are increasing their
+            membership income and lot's more.​
+          </p>
+        </div>
+
+        <div className="flex flex-row justify-between px-36 w-full">
+          <div className="flex flex-col items-center relative">
+            <img className="rounded-lg" src={communityOne} alt="" />
+
+            <div className="flex flex-col w-[317px] gap-4 p-4 items-center justify-center bg-[#F5F7FA] rounded-lg ring-1 shadow-xl ring-slate-900/5 absolute -bottom-24">
+              <h4 className="text-[#717171] text-[20px] font-semibold text-center">
+                Creating Streamlined Safeguarding Processes with OneRen
+              </h4>
+              <div className="flex flex-row justify-center gap-2 p-2">
+                <h4 className="text-[#4CAF4F] text-[20px] font-semibold">
+                  Read more
+                </h4>
+                <img className="px-[5px] py-2" src={rightArrow} alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center relative">
+            <img className="rounded-lg" src={communityTwo} alt="" />
+
+            <div className="flex flex-col w-[317px] gap-4 p-4 items-center justify-center bg-[#F5F7FA] rounded-lg ring-1 shadow-xl ring-slate-900/5 absolute -bottom-24">
+              <h4 className="text-[#717171] text-[20px] font-semibold text-center">
+                What are your safeguarding responsibilities and how can you
+                manage them?
+              </h4>
+              <div className="flex flex-row justify-center gap-2 p-2">
+                <h4 className="text-[#4CAF4F] text-[20px] font-semibold">
+                  Read more
+                </h4>
+                <img className="px-[5px] py-2" src={rightArrow} alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center relative">
+            <img className="rounded-lg" src={communityThree} alt="" />
+
+            <div className="flex flex-col w-[317px] gap-4 p-4 items-center justify-center bg-[#F5F7FA] rounded-lg ring-1 shadow-xl ring-slate-900/5 absolute -bottom-24">
+              <h4 className="text-[#717171] text-[20px] font-semibold text-center">
+                Revamping the Membership Model with Triathlon Australia
+              </h4>
+              <div className="flex flex-row justify-center gap-2 p-2">
+                <h4 className="text-[#4CAF4F] text-[20px] font-semibold">
+                  Read more
+                </h4>
+                <img className="px-[5px] py-2" src={rightArrow} alt="" />
+              </div>
             </div>
           </div>
         </div>
