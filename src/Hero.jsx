@@ -16,7 +16,7 @@ function Hero() {
               Where to grow your business as a photographer: site or social
               media?
             </p>
-            <button className="bg-[#4CAF4F] px-8 py-3.5 w-32 rounded-sm text-white">
+            <button className="bg-[#4CAF4F] px-8 py-3.5 w-32 rounded-sm font-medium text-white">
               Register
             </button>
           </div>
@@ -24,7 +24,7 @@ function Hero() {
             <img className="w-[391px] h-[407px]" src={heroImg} alt="" />
           </div>
         </div>
-        <div className="flex flex-row justify-center items-center gap-2">
+        <div className="flex flex-row justify-center items-center gap-2 mb-4">
           <img className="cursor-pointer" src={dotGreen} alt="" />
           <img className="cursor-pointer" src={dotWhite} alt="" />
           <img className="cursor-pointer" src={dotWhite} alt="" />

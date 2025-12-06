@@ -1,3 +1,17 @@
+import firstLogo from "./assets/images/firstLogo.png";
+import secondLogo from "./assets/images/secondLogo.png";
+import thirdLogo from "./assets/images/thirdLogo.png";
+import fourthLogo from "./assets/images/fourthLogo.png";
+import fifthLogo from "./assets/images/fifthLogo.png";
+import sixthLogo from "./assets/images/sixthLogo.png";
+import seventhLogo from "./assets/images/seventhLogo.png";
+
+import membership from "./assets/images/membership.svg";
+import association from "./assets/images/association.svg";
+import groups from "./assets/images/groups.svg";
+
+import logIn from "./assets/images/logIn.png";
+
 import membersIcon from "./assets/images/memberIcon.png";
 import clubsIcon from "./assets/images/clubsIcon.png";
 import bookingsIcon from "./assets/images/bookingsIcon.png";
@@ -7,22 +21,122 @@ import mobileLogInIcon from "./assets/images/mobLogInIcon.svg";
 
 import profileTimSmith from "./assets/images/profileTimSmith.jpg";
 
-import firstLogo from "./assets/images/firstLogo.png";
-import secondLogo from "./assets/images/secondLogo.png";
-import thirdLogo from "./assets/images/thirdLogo.png";
-import fourthLogo from "./assets/images/fourthLogo.png";
-import fifthLogo from "./assets/images/fifthLogo.png";
-import sixthLogo from "./assets/images/sixthLogo.png";
-
 import rightArrow from "./assets/images/rightArrow.svg";
 
 import communityOne from "./assets/images/communityOne.png";
 import communityTwo from "./assets/images/communityTwo.png";
 import communityThree from "./assets/images/communityThree.png";
 
-function Achievements() {
+function MainSection() {
   return (
     <main className="flex justify-center flex-col gap-12">
+      <section className="flex flex-col justify-center items-center px-36 mt-12">
+        <div className="flex flex-col justify-center items-center gap-4 w-full">
+          <div className="flex flex-col justify-center items-center gap-2">
+            <h2 className="text-[#4D4D4D] text-[36px] font-semibold">
+              Our Clients
+            </h2>
+            <p className="text-[#717171] ">
+              We have been working with some Fortune 500+ clients
+            </p>
+          </div>
+          <div className="flex flex-row justify-between items-center w-full h-[98px]">
+            <a href="#">
+              <img src={firstLogo} alt="" />
+            </a>
+            <a href="#">
+              <img src={secondLogo} alt="" />
+            </a>
+            <a href="#">
+              <img src={thirdLogo} alt="" />
+            </a>
+            <a href="#">
+              <img src={fourthLogo} alt="" />
+            </a>
+            <a href="#">
+              <img src={fifthLogo} alt="" />
+            </a>
+            <a href="#">
+              <img src={sixthLogo} alt="" />
+            </a>
+            <a href="#">
+              <img src={seventhLogo} alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section className="flex flex-col justify-center items-center gap-4">
+        <div className="flex flex-col justify-center items-center gap-2">
+          <h2 className="text-[#4D4D4D] text-[36px] font-semibold w-[542px] text-center">
+            Manage your entire community in a single system
+          </h2>
+          <p className="text-[#717171]">Who is Nextcent suitable for?</p>
+        </div>
+        <div className="flex flex-row justify-between items-center w-full px-36">
+          <div className="flex flex-col justify-center items-center gap-2 px-8 py-6 w-[299px]">
+            <div className="flex flex-col justify-center items-center gap-4">
+              <img src={membership} alt="" />
+              <h3 className="text-[28px]/[36px] text-[#4D4D4D] font-bold text-center">
+                Membership Organisations
+              </h3>
+            </div>
+            <p className="text-[14px] text-[#717171] text-center">
+              Our membership management software provides full automation of
+              membership renewals and payments
+            </p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-2 px-8 py-6 w-[299px]">
+            <div className="flex flex-col justify-center items-center gap-4">
+              <img src={association} alt="" />
+              <h3 className="text-[28px]/[36px] text-[#4D4D4D] font-bold text-center">
+                National Associations
+              </h3>
+            </div>
+            <p className="text-[14px] text-[#717171] text-center">
+              Our membership management software provides full automation of
+              membership renewals and payments
+            </p>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-2 px-8 py-6 w-[299px]">
+            <div className="flex flex-col justify-center items-center gap-4">
+              <img src={groups} alt="" />
+              <h3 className="text-[28px]/[36px] text-[#4D4D4D] font-bold text-center">
+                Clubs And Groups
+              </h3>
+            </div>
+            <p className="text-[14px] text-[#717171] text-center">
+              Our membership management software provides full automation of
+              membership renewals and payments
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="flex flex-row justify-between items-center px-36 w-full">
+        <div className="w-[442px] h-[433px] flex justify-center items-center">
+          <img src={logIn} alt="" />
+        </div>
+        <div className="w-[661px] flex flex-col gap-8">
+          <div className="flex flex-col gap-4">
+            <h2 className="text-[36px] font-semibold text-[#4D4D4D]">
+              The unseen of spending three years at Pixelgrade
+            </h2>
+            <p className="text-[#717171] text-[14px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+              amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
+              Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+              tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.
+              Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
+              elementum pulvinar odio.
+            </p>
+          </div>
+          <button className="px-8 py-3.5 bg-[#4CAF4F] w-[151px] text-white font-medium rounded-sm">
+            Learn More
+          </button>
+        </div>
+      </section>
+
       <section className="flex flex-row justify-between items-center px-36 py-16 bg-[#F5F7FA]">
         <div className="flex flex-col gap-2 justify-center items-center">
           <h2 className="text-[#4D4D4D] text-[36px] font-semibold">
@@ -193,7 +307,7 @@ function Achievements() {
           </p>
         </div>
 
-        <div className="flex flex-row justify-between px-36 w-full">
+        <div className="flex flex-row justify-between px-36 w-full mb-[200px]">
           <div className="flex flex-col items-center relative">
             <img className="rounded-lg" src={communityOne} alt="" />
 
@@ -231,8 +345,8 @@ function Achievements() {
             <img className="rounded-lg" src={communityThree} alt="" />
 
             <div className="flex flex-col w-[317px] gap-4 p-4 items-center justify-center bg-[#F5F7FA] rounded-lg ring-1 shadow-xl ring-slate-900/5 absolute -bottom-24">
-              <h4 className="text-[#717171] text-[20px] font-semibold text-center">
-                Revamping the Membership Model with Triathlon Australia
+              <h4 className="text-[#717171] text-[20px] font-semibold text-center w-[285px]">
+                Revamping the Membership Model with Triathlon Australia Inc.
               </h4>
               <div className="flex flex-row justify-center gap-2 p-2">
                 <h4 className="text-[#4CAF4F] text-[20px] font-semibold">
@@ -248,4 +362,4 @@ function Achievements() {
   );
 }
 
-export default Achievements;
+export default MainSection;
